@@ -1,0 +1,37 @@
+
+body{
+    margin: 0 auto;
+}
+.header{
+    height: 700px;
+    border: 1px solid brown;
+    background: url(../images/image11.jpg);
+    background-size: cover;
+    
+}
+
+.headerIside{
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+
+
+    border: lpx dashed; 
+    
+
+}
+
+.logo{
+    border: 1px;
+    display: block ;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 125px;
+    top: 24px;
+    background: url(../images/10vlb49k.bmp);
+    background-size: cover;
+}
+
+
