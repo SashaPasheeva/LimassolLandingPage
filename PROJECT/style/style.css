@@ -2,10 +2,11 @@
 body{
     margin: 0 auto;
 }
+
 .header{
     height: 700px;
     border: 1px solid brown;
-    background: url(../images/image11.jpg);
+    background: url(../images/back-G.webp);
     background-size: cover;
     
 }
@@ -17,7 +18,7 @@ body{
     position: relative;
 
 
-    border: lpx dashed; 
+    border: lpx dashed red; 
     
 
 }
@@ -34,4 +35,50 @@ body{
     background-size: cover;
 }
 
+.welcomeWrap{
+    background-color: #ebe015;
+    box-sizing: border-box;
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    top: 336px;
+    padding: 82px 25px 0 25px;
+    border: 1px solid rgb(252, 7, 7);
+}
+.welcome{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #333333;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: 1px solid green;
+}
+.welcomeText
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 24px;
+    
+}
+.socialIconWrap{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    right: 35px;
+    top: 30px;
+    width: 150px;
 
+    border:1px solid orchid;
+}
+.socialIconWrap a{
+    text-decoration: none;
+}
+.socialIconWrap i{
+    color: rgb(175, 59, 175) ;
+}
+.socialIconWrap i:hover{
+    color:  #ebe015 ;
+}
